@@ -7,6 +7,10 @@ public class DefaultCountingOutRhymer {
 
     private final int[] numbers = new int[MAX_SIZE];
 
+    public static int getMaxSize() {
+        return MAX_SIZE;
+    }
+
     public int getTotal() {
         return total;
     }
